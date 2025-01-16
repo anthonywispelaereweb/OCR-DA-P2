@@ -147,6 +147,7 @@ a {
 .filters {
   display: flex;
   padding-bottom: 30px;
+  gap: 1rem;
 }
 
 .filters-list {
@@ -414,7 +415,7 @@ a {
   }
 
   .search-form .search-input {
-    width: calc(100% - (2*49px));    
+    width: calc(100% - (2 * 49px));
   }
   .hebergements-and-populaires {
     flex-direction: column;
@@ -522,16 +523,15 @@ a {
   }
 
   .filters-item {
-    width: calc(40% - (2*12px));
+    width: calc(40% - 12px);
     padding: 12px 15px;
-    
   }
+
   .filters-item span {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
   }
-
 
   .hebergements-and-populaires {
     flex-direction: column-reverse;
@@ -581,5 +581,8 @@ a {
 
   .footer {
     flex-direction: column;
+  }
+  .footer-col {
+    width: calc(100% - 40px);
   }
 }
